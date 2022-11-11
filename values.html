@@ -4,26 +4,29 @@
     </head>
     <body>
         <form>
-        <label>Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="name" min="3" max="70" required/><br><br>
+        <label>Name</label>
+        <input type="text" minlength="3" maxlength="10" required/><br><br>
         <label>Mobile Number</label>&nbsp;
-        <input type="number" tabindex="1" maxlength="10" required/><br><br>
+        <input type="number"min="3" max="1000000"tabindex="1"  required  /><br><br>
         <label>Alternate Phone</label>
         <input type="number" disabled/><br><br>
-        <label>Country</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <select>
+        <label>Country</label>
+          <select>
             <option>India</option>
             <option>Sri lanka</option>
             <option>Japan</option>
             <option>Russia</option>
         </select><br><br>
-        <label>Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Password</label>
         <input type="Password" minlength="3" maxlength="10" tabindex="2" required/><br><br>
-        <label>Price</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="range" min="500" max="5000"/><br><br>
-
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="register"/>
-        &nbsp;&nbsp;&nbsp; <input type="reset" value="cancel"/>
+        <label>Price</label>
+        <input type="range"/><br><br>
+        <br/>
+        <label for="">Quote</label>
+        <input type="number"  min='200'  max="400"/ > 
+        <br/><br>
+        <input type="submit" value="register"/>
+         <input type="reset" value="cancel"/>
 
         </form>
     </body>
